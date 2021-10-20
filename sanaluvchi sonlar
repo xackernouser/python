@@ -1,0 +1,13 @@
+son = 0
+mehmonlar = ['Ali', 'Vali', 'Olim']
+for mehmon in mehmonlar:
+    print(f"Hurmatli {mehmon} \nSizni bugungi kechaga taklif qilmoqchiman")
+    son += 1
+    print("Skillar soni", son)
+    print("Skillar soni", son)
+son = int(input("son kiriting: "))
+if son > 0:
+    print(f"{son}ni 0 dan kichik")
+else:
+    print(f"{son}soni 0dan kichik")
+    
